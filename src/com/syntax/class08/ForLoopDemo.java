@@ -47,6 +47,20 @@ public class ForLoopDemo {
 		for (int i=0; i<=30; i+=3) {
 			System.out.print(i+" ");
 		}
+		
+		
+		System.out.println("-------------------------------------------------");
+		
+		
+		int sum=0;
+		
+		fot(int i=1; i<6; i++){
+			s
+		}
+		
+		
+		
+		
 	}
 
 }

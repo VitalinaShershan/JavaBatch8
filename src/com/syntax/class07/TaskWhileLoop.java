@@ -23,7 +23,7 @@ public class TaskWhileLoop {
 		
 				}else {
 					System.out.println(" i do not  need a day off any more");
-				workday=false;
+				workday=false;// or we can add " break; "
 				
 				}
 				day++;
