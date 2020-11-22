@@ -1,5 +1,5 @@
 package homework;
-
+import java.util.Scanner;
 public class ex43Switch {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package coms.syntax.class12;
+package com.syntax.class12;
 
 public class Q1 {
 

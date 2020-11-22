@@ -52,11 +52,7 @@ public class ForLoopDemo {
 		System.out.println("-------------------------------------------------");
 		
 		
-		int sum=0;
-		
-		fot(int i=1; i<6; i++){
-			s
-		}
+
 		
 		
 		

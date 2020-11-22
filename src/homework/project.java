@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class Main {
-  public static void main(String[] args); {
+  public static void main(String[] args) {
 
  Scanner myObj= new Scanner(System.in);
  
@@ -9,7 +9,7 @@ class Main {
   
   
 System.out.print("Your age after 10 years is"+ age);
-int age=myObj.nextInt();
+ age=myObj.nextInt();
  
   }  
 }
