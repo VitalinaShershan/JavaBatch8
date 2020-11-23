@@ -12,16 +12,16 @@ public class Dog {
     boolean isFriendly;
 
     //ad the behavior method,
-    void bark(){
+   public void bark(){
         System.out.println("Dog barks");
 
     }
 
-    void sleep(){
+    public void sleep(){
         System.out.println("Dog sleeps");
     }
 
-    void eat(){
+    public void eat(){
         System.out.println("Dog eats");
     }
 
