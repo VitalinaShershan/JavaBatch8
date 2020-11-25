@@ -1,23 +1,20 @@
 package com.syntax.class16;
 
 public class Task1 {
-    public static void main(String[] args) {
-        /* write a program to reverse the contents of a string
-        How would you reverse s String charachter by charachter
-         */
 
-        String str1 = "Anna";
-        String reverse="";
-        for(int i=str1.length()-1; i >=0;i--){
-            System.out.println(i);
-            reverse = reverse + str1.charAt(i);
-            System.out.println(reverse);
-        }
-        System.out.println(reverse);
-        System.out.println("Is " + str1 + " palindrome? " + reverse.equalsIgnoreCase(str1));
+    /*
+Create a method that will take 2
+parameters as a numbers and prints which number is larger.
+ */
 
+    public static void printLarger(double number1,double number2 ){
+if(number1>number2){
+    System.out.println(number1+ " is larger");
+} else if(number2>number1){
+    System.out.println(number2+ " is larger");
+}else{
+    System.out.println( "Numbers are equal");
+}
 
-        StringBuilder stringBuilder=new StringBuilder("Anna");
-        System.out.println(stringBuilder.reverse());
     }
 }
