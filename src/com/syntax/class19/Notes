@@ -1,0 +1,60 @@
+Constructors:
+1)It is a special block of code/similar to a method that is executed when we create an object
+of a class
+2) The purpose of constructors is to initialize our fields.(if you dont want it to be maged by default
+3) They must have the same name as the name of the class
+4) Constructors do not have return types not even void
+5) we can pass arguments to our constructors just like we do for our methods
+SIMILARITIES between CONSTRUCTORS and METHODS
+1)Both can have parameters
+2)both can have access modifiers like private public and protected/default
+Differences constructors and methods:
+1) As we can use any name for our method we can not use any name for our constructor
+they must have the same name as of our class
+2)Constructors can not return values as methods can
+3) Constructors are automatically called when an instance of the class is created.
+When should use constructors?
+when we wan to control the initialization fo our fields.
+
+If  we create our own constructors, compiler(java) will not create automatic
+(default) constructors. It will think that if you created one yourself;
+ so that is not my job to create a default constructors with no arguments
+ if we cretaed even Single constructor, Java will not take responsibilies for creating constructors
+ but if we dont create any constructor , Java will create it itself as a default(invisible) one
+
+
+if we executing the code within the same class - its no matter which access modifier we will be using
+with our constructor( public, private,default)- all the varibles will be available
+
+But if we execute our code in a differnet class , we can not access the varibles,
+that was stored in private constuctor in another class
+
+Constractors can be also private public
+
+But constructors can not be static; because all the objects in our constructors will be
+having the same values; and it make no sense
+static -- its when we need to use one value for various plenty of times
+(like String nameOfSchool="syntax" --- 100 students will have the same value for school = Syntax
+
+Note: Static fields are initialized in the memory before the object is created
+
+
+ // why we have to create static variables if we have static void ??
+    //first of all it will five an error
+    // static method or objects they belong to the class and they only have a single value or a single copie
+    // if you have create static method you should create static objects; othervise will not make sense
+
+
+     // for costructors no need to specify data type(int,double,String and so on)
+        // because they dont return anything or print anything like void
+
+  Constractor class{
+  Constructors constructors1= new Constructors();
+
+  //constructors.print();
+          // Constructors-- name of the class
+          // constructors - name of the variable
+          // = - assignment
+          // new - by specifying "new" we tell to Java that we want an Object
+          //Constructors() - those pair of () is called constructore; its purporse to initialize our fields
+          // initializing number= 0; name= null; automaticaally

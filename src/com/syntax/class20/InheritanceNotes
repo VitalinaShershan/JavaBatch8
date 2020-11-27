@@ -1,0 +1,21 @@
+If we have some properties or methods in a class we can utilize these members in another class
+without rewriting them again.
+
+We can only inherit from a single class
+
+Class parent with its own code
+
+Class Child extends Parent {
+
+}
+class child will inherit all the code from Parent
+class + its own code
+benefits:
+no time consuming,
+code reusibility( no need to copy code again and again)
+memory saving
+
+disadvantages:
+other classes can have all the featheres and codes;
+but you can always make it pribate (In Parent) so the child can not acces it
+
